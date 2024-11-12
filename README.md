@@ -2,7 +2,7 @@
 
 A comprehensive digital twin implementation for the DJI Tello drone, featuring bidirectional communication between the physical drone and its digital counterpart.
 
-![Web Interface](image/webinterface.png)
+![Web Interface](https://github.com/miladnasiri/testtttt/blob/275796eaf9057e9bbbd47aeae739ee22e05abc13/Dashboard.png)
 
 ## Overview
 
