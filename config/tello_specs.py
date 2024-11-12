@@ -1,3 +1,4 @@
+#config/tello_specs.py
 FLIGHT = {
     "MAX_HEIGHT": 10.0,
     "MAX_SPEED": {
