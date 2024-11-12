@@ -70,20 +70,36 @@ streamlit run app.py
 
 ```
 tello-digital-twin/
-├── app.py                 # Main application file
-├── config/
-│   └── tello_specs.py    # Drone specifications
-├── mock_data/
-│   └── states.py         # State management
-├── utils/
-│   ├── visualizer.py     # Visualization components
-│   └── dashboard.py      # Dashboard utilities
-├── communication/
-│   ├── commands.py       # Command handling
-│   └── bridge.py         # Bidirectional communication
-└── image/
-    ├── flwchart.png      # Architecture diagram
-    └── webinterface.png  # Dashboard screenshot
+.
+├── analysis
+│   ├── __init__.py
+│   ├── __pycache__
+│   └── state_analyzer.py
+├── app.py
+├── config
+│   ├── __init__.py
+│   ├── __pycache__
+│   └── tello_specs.py
+├── handlers
+│   ├── drone_monitor.py
+│   ├── __init__.py
+│   ├── patterns.py
+│   ├── __pycache__
+│   └── simulation_handler.py
+├── image
+│   ├── flwchart.png
+│   └── webinterface.png
+├── mock_data
+│   ├── __init__.py
+│   ├── __pycache__
+│   └── states.py
+├── README.md
+├── requirements.txt
+├── utils
+│   ├── __init__.py
+│   ├── __pycache__
+│   └── visualizer.py
+
 ```
 
 ## Communication Modes
